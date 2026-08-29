@@ -74,6 +74,14 @@ const WORK_ITEMS = [
     cta: "View on Figma ↗",
   },
   {
+    href: "https://www.behance.net/gallery/254544891/Laozi-wallet",
+    icon: "👛",
+    tag: "Behance",
+    title: "Laozi — Leather Wallet E-Commerce",
+    desc: "A minimal e-commerce landing and product page for a premium leather wallet brand. Designed to feel as crafted and trustworthy as the product itself, with clean visual hierarchy guiding users toward the purchase.",
+    cta: "View on Behance ↗",
+  },
+  {
     href: "https://www.linkedin.com/in/anuj-hirpara-2b58432a6",
     icon: "💼",
     tag: "LinkedIn",
@@ -321,7 +329,7 @@ export default function AnujPortfolio() {
               <p style={styles.heroCardLabel}>At a Glance</p>
               <div style={styles.statGrid}>
                 <div>
-                  <div style={styles.statNum}>2+</div>
+                  <div style={styles.statNum}>3+</div>
                   <div style={styles.statLabel}>Projects Designed</div>
                 </div>
                 <div>
