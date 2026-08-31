@@ -750,10 +750,11 @@ const styles = {
     fontFamily: "'Plus Jakarta Sans', sans-serif", fontSize: "clamp(32px, 4.5vw, 54px)",
     fontWeight: 800, letterSpacing: -1.5, lineHeight: 1.07,
   },
-  workGrid: { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: 24, marginTop: 52 },
+  workGrid: { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: 24, marginTop: 52, alignItems: "stretch" },
   workCard: {
     background: "var(--bg)", border: "1px solid var(--border)", borderRadius: "var(--radius)",
-    padding: "36px 32px", minHeight: 280, textDecoration: "none", color: "var(--text)", display: "flex",
+    padding: "36px 32px", minHeight: 300, height: "100%", boxSizing: "border-box",
+    textDecoration: "none", color: "var(--text)", display: "flex",
     flexDirection: "column", gap: 16, position: "relative", overflow: "hidden",
   },
   workIcon: {
