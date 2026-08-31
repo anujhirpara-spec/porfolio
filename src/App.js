@@ -78,7 +78,7 @@ const WORK_ITEMS = [
     icon: "👛",
     tag: "Behance",
     title: "Laozi — Leather Wallet E-Commerce",
-    desc: "A minimal e-commerce landing and product page for a premium leather wallet brand. Designed to feel as crafted and trustworthy as the product itself, with clean visual hierarchy guiding users toward the purchase.",
+    desc: "A minimal e-commerce landing page for a premium leather wallet brand, designed to feel as crafted and trustworthy as the product itself.",
     cta: "View on Behance ↗",
   },
   {
@@ -753,7 +753,7 @@ const styles = {
   workGrid: { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: 24, marginTop: 52 },
   workCard: {
     background: "var(--bg)", border: "1px solid var(--border)", borderRadius: "var(--radius)",
-    padding: "36px 32px", textDecoration: "none", color: "var(--text)", display: "flex",
+    padding: "36px 32px", minHeight: 280, textDecoration: "none", color: "var(--text)", display: "flex",
     flexDirection: "column", gap: 16, position: "relative", overflow: "hidden",
   },
   workIcon: {
