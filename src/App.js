@@ -337,12 +337,8 @@ export default function AnujPortfolio() {
                   <div style={styles.statLabel}>Certificates Earned</div>
                 </div>
                 <div>
-                  <div style={styles.statNum}>7.43</div>
+                  <div style={styles.statNum}>7.62</div>
                   <div style={styles.statLabel}>CGPI</div>
-                </div>
-                <div>
-                  <div style={styles.statNum}>∞</div>
-                  <div style={styles.statLabel}>Curiosity</div>
                 </div>
               </div>
               <div style={styles.heroDivider} />
@@ -429,8 +425,8 @@ export default function AnujPortfolio() {
               </p>
               <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
                 {[
-                  ["📍", "Location:", "Kalavad, Jamnagar, Gujarat"],
-                  ["🎓", "Degree:", "B.E. Computer Engineering — CGPI 7.43"],
+                  ["📍", "Location:", "Rajkot, Gujarat"],
+                  ["🎓", "Degree:", "B.E. Computer Engineering — CGPI 7.62"],
                   ["📞", "Phone:", "+91 9723643508"],
                 ].map(([icon, label, val]) => (
                   <div key={label} style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
