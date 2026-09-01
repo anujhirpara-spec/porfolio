@@ -686,8 +686,8 @@ const styles = {
     color: "var(--muted2)", textDecoration: "none", cursor: "pointer",
   },
   hero: {
-    minHeight: "100vh", display: "flex", alignItems: "center",
-    padding: "calc(var(--nav-h) + 60px) 60px 80px", position: "relative", overflow: "hidden",
+    minHeight: "auto", display: "flex", alignItems: "center",
+    padding: "calc(var(--nav-h) + 48px) 60px 64px", position: "relative", overflow: "hidden",
   },
   heroBgGlow: {
     content: "''", position: "absolute", top: -100, left: -200, width: 700, height: 700,
@@ -881,6 +881,10 @@ const css = `
 
   .marquee-track { animation: marquee 22s linear infinite; }
   @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+  @media (min-width: 1025px) {
+    .hero { min-height: min(92vh, 820px); }
+  }
 
   /* ── MOBILE RESPONSIVE ── */
   @media (max-width: 1024px) {
